@@ -21,7 +21,6 @@ const useStyles = (theme) => ({
     fontSize: 14,
     marginTop: 20,
     position: 'relative',
-    boxSizing: 'padding-box',
     color: theme.value.contrast,
     padding: '8px 80px 8px 20px',
     backgroundColor: theme.value.color

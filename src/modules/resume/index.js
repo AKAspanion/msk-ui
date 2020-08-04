@@ -11,6 +11,8 @@ import Skillset from './skill-set';
 import SocialLinks from './social-links';
 import Interests from './interests';
 import Hobbies from './hobbies';
+import Contact from './contact';
+import Achievements from './achievements';
 
 const components = {
   Cover,
@@ -21,7 +23,9 @@ const components = {
   Skillset,
   Interests,
   SocialLinks,
-  Hobbies
+  Hobbies,
+  Contact,
+  Achievements
 };
 
 const Resume = {

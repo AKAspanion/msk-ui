@@ -6,3 +6,6 @@ dist
 /coverage
 /scripts
 .vs
+package-lock.json
+pnpm-lock.yaml
+

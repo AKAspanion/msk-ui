@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server .",
+    "bundle": "node ./app/bundler/bundle.js",
     "build": "webpack .",
     "lint": "eslint --ext .js,.jsx ."
   },

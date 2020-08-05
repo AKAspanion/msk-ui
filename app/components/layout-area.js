@@ -25,7 +25,7 @@ const useStyles = makeStyles({
 });
 
 function LayoutArea({
-  Variant
+  Variant = {}
 }) {
 
   const classes = useStyles();
@@ -54,7 +54,7 @@ function LayoutArea({
         className={classes.layoutPaper}
         elevation={0} >
 
-        <RenderFn {...Variant.properties} />
+        {RenderFn && <RenderFn {...Variant.properties} />}
       </Paper>
       <Box
         style={{
@@ -65,7 +65,7 @@ function LayoutArea({
         <Typography variant="h5" >Contributors</Typography>
         <Divider />
         <br />
-        {Variant.contributors.map((contributor) => {
+        {Variant.contributors && Variant.contributors.map((contributor) => {
           return <div key={contributor.email}>
             <Card style={{ backgroundColor: 'rgb(92.1%, 92.1%, 92.1%)' }} >
               <CardContent>

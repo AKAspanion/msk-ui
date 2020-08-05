@@ -12,13 +12,12 @@ import ContributorsList from './components/contributors-list';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 
+
 const App = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'), {
     defaultMatches: true
   });
-
-  const dispatch = useDispatch();
 
   const {
     selectedModule,

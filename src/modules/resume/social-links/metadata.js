@@ -1,5 +1,5 @@
 const metadata = {
-    id: 'social',
+    id: 'resume-social-links',
     name: "Social Links",
   }
   

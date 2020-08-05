@@ -26,7 +26,9 @@ and 'theme.value.contrast' for text color.
 10. When ever you want to loop an array with .map, extract it in a function inside the component.
 11. DO NOT use CSS media queries.
 12. Use only '.value' of the properties in this file.
-13. DO NOT use any icons files. Use only URLs as the image "src"
+13. DO NOT use any icons files. Use only URLs as the image "src".
+14. DO NOT use any react hooks like useEffect or useState etc.,
+15. DO NOT use Regular expressions.
 *************************************************************************
 */
 
@@ -35,7 +37,7 @@ and 'theme.value.contrast' for text color.
 Happy coding
 *************************************************************************/
 
-
+// DO NOT import any thing else than React
 import React from 'react'
 
 const useStyles = (theme) => ({

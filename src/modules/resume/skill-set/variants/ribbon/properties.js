@@ -27,7 +27,7 @@ const properties = {
     name: 'Theme',
     required: true,
     type: propertyTypes.THEME,
-    value: themes.dark.shadowPurple
+    value: themes.dark.mintGreen
   },
   headlineText: {
     required: true,

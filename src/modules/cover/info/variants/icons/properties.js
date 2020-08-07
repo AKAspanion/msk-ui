@@ -16,8 +16,8 @@ const properties = {
   },
   phone: {
     name: 'Phone',
-    type: propertyTypes.STRING,
-    value: '+91-1234567890',
+    type: propertyTypes.NUMBER,
+    value: '1234567890',
     required: true
   },
   email: {

@@ -10,33 +10,98 @@ const properties = {
   },
   address: {
     name: 'Address',
-    type: propertyTypes.STRING,
-    value: 'Delhi, India',
-    required: false
+    type: propertyTypes.ARRAY,
+    required: false,
+    value: [
+      {
+        name: 'Address title',
+        type: propertyTypes.STRING,
+        value: 'Address',
+        required: false
+      },
+      {
+        name: 'Address value',
+        type: propertyTypes.STRING,
+        value: 'Delhi, India',
+        required: false
+      }
+    ]
   },
   phone: {
     name: 'Phone',
-    type: propertyTypes.STRING,
-    value: '+91-1234567890',
-    required: true
+    type: propertyTypes.ARRAY,
+    required: true,
+    value: [
+      {
+        name: 'Phone title',
+        type: propertyTypes.STRING,
+        value: 'Phone',
+        required: false
+      },
+      {
+        name: 'Phone value',
+        type: propertyTypes.NUMBER,
+        value: '1234567890',
+        required: true
+      }
+    ]
   },
   email: {
     name: 'E-mail',
-    type: propertyTypes.EMAIL,
-    value: 'samriddhijain2000@gmail.com',
-    required: true
+    type: propertyTypes.ARRAY,
+    required: true,
+    value: [
+      {
+        name: 'E-mail title',
+        type: propertyTypes.STRING,
+        value: 'E-mail',
+        required: false
+      },
+      {
+        name: 'E-mail value',
+        type: propertyTypes.EMAIL,
+        value: 'samriddhijain2000@gmail.com',
+        required: true
+      }
+    ]
   },
   linkedin: {
     name: 'LinkedIn',
-    type: propertyTypes.URL,
-    value: 'linkedin.com/in/samjain123/',
-    required: false
+    type: propertyTypes.ARRAY,
+    required: false,
+    value: [
+      {
+        name: 'LinkedIn title',
+        type: propertyTypes.STRING,
+        required: false,
+        value: 'LinkedIn'
+      },
+      {
+        name: 'LinkedIn value',
+        type: propertyTypes.URL,
+        required: false,
+        value: 'linkedin.com/in/samjain123/'
+      }
+    ]
   },
   github: {
     name: 'GitHub',
-    type: propertyTypes.URL,
-    value: 'github.com/sammjainn',
-    required: false
+    type: propertyTypes.ARRAY,
+    required: false,
+    value: [
+      {
+        name: 'GitHub title',
+        type: propertyTypes.STRING,
+        required: false,
+        value: 'GitHub'
+      },
+      {
+        name: 'GitHub value',
+        type: propertyTypes.URL,
+        required: false,
+        value: 'github.com/sammjainn'
+      }
+    ]
   }
 };
 

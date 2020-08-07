@@ -30,16 +30,16 @@ const Basic = ({ theme, address, phone, email, linkedin, github }) => {
         }}
       >
         <div style={styles.detailsWrapper}>
-          <div style={styles.title}>{address.name}</div>
-          <div>{address.value}</div>
-          <div style={styles.title}>{phone.name}</div>
-          <div>{phone.value}</div>
-          <div style={styles.title}>{email.name}</div>
-          <div>{email.value}</div>
-          <div style={styles.title}>{linkedin.name}</div>
-          <div>{linkedin.value}</div>
-          <div style={styles.title}>{github.name}</div>
-          <div>{github.value}</div>
+          <div style={styles.title}>{address.value[0].value}</div>
+          <div>{address.value[1].value}</div>
+          <div style={styles.title}>{phone.value[0].value}</div>
+          <div>{phone.value[1].value}</div>
+          <div style={styles.title}>{email.value[0].value}</div>
+          <div>{email.value[1].value}</div>
+          <div style={styles.title}>{linkedin.value[0].value}</div>
+          <div>{linkedin.value[1].value}</div>
+          <div style={styles.title}>{github.value[0].value}</div>
+          <div>{github.value[1].value}</div>
         </div>
         <div style={{ flex: 1 }} />
       </div>

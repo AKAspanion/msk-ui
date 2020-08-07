@@ -38,7 +38,7 @@ Happy coding
 *************************************************************************/
 
 // DO NOT import any thing else than React
-import React from 'react'
+import React from 'react';
 
 const useStyles = (theme) => ({
   root: {
@@ -50,38 +50,32 @@ const useStyles = (theme) => ({
   sampleText: {
     fontSize: 15
   }
-})
+});
 
-const Basic = (
-  {
-    theme,
-    headlineText,
-    sampleArray
-  }
-) => {
-  const styles = useStyles()
+const Basic = ({ theme, headlineText, sampleArray }) => {
+  const styles = useStyles();
 
   function getSampleTextMarkup(sampleText) {
     return (
       <div>
         <br />
-        <p style={styles.sampleText} >{sampleText.value}</p>
+        <p style={styles.sampleText}>{sampleText.value}</p>
       </div>
-    )
+    );
   }
 
   return (
-    <div style={{
-      ...styles.root,
-      backgroundColor: theme.value.color,
-      color: theme.value.contrast
-    }}>
-      <h2 style={styles.headlineTexts} >{headlineText.value}</h2>
-      {
-        sampleArray.value.map((sampleText) => {
-          return getSampleTextMarkup(sampleText)
-        })
-      }
+    <div
+      style={{
+        ...styles.root,
+        backgroundColor: theme.value.color,
+        color: theme.value.contrast
+      }}
+    >
+      <h2 style={styles.headlineTexts}>{headlineText.value}</h2>
+      {sampleArray.value.map((sampleText) => {
+        return getSampleTextMarkup(sampleText);
+      })}
     </div>
   );
 };

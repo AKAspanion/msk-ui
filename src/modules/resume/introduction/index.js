@@ -3,7 +3,7 @@ import variants from './variants';
 
 const Introduction = {
   metadata,
-  variants,
-}
+  variants
+};
 
 export default Introduction;

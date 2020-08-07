@@ -19,11 +19,10 @@ Please follow these rules if you want your component to go LIVE.
 Happy coding.
 *************************************************************************/
 
-
 const metadata = {
-  id: "resume-sample-basic",
-  name: "Basic",
-  description: "A very basic variant",
-}
+  id: 'resume-sample-basic',
+  name: 'Basic',
+  description: 'A very basic variant'
+};
 
 export default metadata;

@@ -3,7 +3,7 @@ import variants from './variants';
 
 const Projects = {
   metadata,
-  variants,
-}
+  variants
+};
 
 export default Projects;

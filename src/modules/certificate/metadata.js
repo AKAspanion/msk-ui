@@ -1,6 +1,6 @@
 const metadata = {
   id: 'certificate',
-  name: "Certificate",
-}
+  name: 'Certificate'
+};
 
 export default metadata;

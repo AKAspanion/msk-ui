@@ -23,8 +23,8 @@ Happy coding 👨‍💻
 
 const metadata = {
   id: 'resume-sample',
-  name: "Sample",
-  description: "A sample component for building resume"
-}
+  name: 'Sample',
+  description: 'A sample component for building resume'
+};
 
 export default metadata;

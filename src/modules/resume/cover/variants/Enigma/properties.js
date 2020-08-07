@@ -48,13 +48,13 @@ const properties = {
   linkedIn: {
     name: 'Linkedin',
     type: propertyTypes.URL,
-    value:'LinkedIn id: ',
+    value: 'LinkedIn id: ',
     required: false
   },
   gitHub: {
     name: 'gitHub',
     type: propertyTypes.URL,
-    value:'GitHub Id:',
+    value: 'GitHub Id:',
     required: false
   },
   description: {

@@ -1,6 +1,6 @@
 const metadata = {
   id: 'award',
-  name: "Awards",
-}
+  name: 'Awards'
+};
 
 export default metadata;

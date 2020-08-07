@@ -1,6 +1,6 @@
 const metadata = {
   id: 'referral',
-  name: "Referral",
-}
+  name: 'Referral'
+};
 
 export default metadata;

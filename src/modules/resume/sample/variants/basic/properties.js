@@ -34,9 +34,8 @@ Please follow these rules if you want your component to go LIVE.
 Happy coding.
 *************************************************************************/
 
-
-import propertyTypes from 'msk-property-types'
-import themes from 'msk-themes'
+import propertyTypes from 'msk-property-types';
+import themes from 'msk-themes';
 
 const properties = {
   theme: {
@@ -60,7 +59,7 @@ const properties = {
         type: propertyTypes.STRING,
         value: 'Lorem ipsum dolor',
         required: true
-      },
+      }
     ]
   },
   sampleObject: {
@@ -84,10 +83,10 @@ const properties = {
           type: propertyTypes.STRING,
           value: 'Lorem ipsum dolor',
           required: true
-        },
-      },
+        }
+      }
     }
-  },
+  }
 };
 
 export default properties;

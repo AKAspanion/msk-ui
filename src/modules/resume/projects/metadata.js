@@ -1,8 +1,7 @@
-
 const metadata = {
   id: 'resume-projects',
-  name: "Projects",
-  description: ""
-}
+  name: 'Projects',
+  description: ''
+};
 
 export default metadata;

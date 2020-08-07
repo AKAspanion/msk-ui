@@ -1,5 +1,5 @@
 import React from 'react';
-import {reading} from '../../../../../../public/InterestIcon';
+import { reading } from '../../../../../../public/InterestIcon';
 
 const useStyles = () => ({
   root: {
@@ -15,36 +15,34 @@ const useStyles = () => ({
     flexWrap: 'wrap'
   },
   interest: {
-    width:200,
+    width: 200,
     height: 50,
     color: 'Black',
-    marginLeft:50,
-    marginRight:50,
-    fontSize:17,
-    position:'relative',
-    
+    marginLeft: 50,
+    marginRight: 50,
+    fontSize: 17,
+    position: 'relative'
   },
 
-  text:{
-  top:15,
-  left:60,
-  position:'absolute',
-  display:'inlineBlock'
+  text: {
+    top: 15,
+    left: 60,
+    position: 'absolute',
+    display: 'inlineBlock'
   },
 
-  icon:{
-  border: 1 ,
-  borderStyle:'solid',
-  borderColor:'#000000',
-  borderRadius: 20,
-  padding: 5,
-  width: 40,
-  marginRight:5
+  icon: {
+    border: 1,
+    borderStyle: 'solid',
+    borderColor: '#000000',
+    borderRadius: 20,
+    padding: 5,
+    width: 40,
+    marginRight: 5
   }
 });
 
 const Advanced = ({ theme, headlineText, interestList }) => {
-  
   const styles = useStyles();
 
   return (
@@ -60,10 +58,8 @@ const Advanced = ({ theme, headlineText, interestList }) => {
       <div style={{ ...styles.wrapper }}>
         {interestList.value.map((el, i) => (
           <div key={i} style={{ ...styles.interest, padding: '5px 15px' }}>
-            <img  style={styles.icon}  src={reading}/>
-            <div style={styles.text}>
-            {el.value}
-            </div>
+            <img style={styles.icon} src={reading} />
+            <div style={styles.text}>{el.value}</div>
           </div>
         ))}
       </div>

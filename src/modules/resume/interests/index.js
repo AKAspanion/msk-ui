@@ -3,7 +3,7 @@ import variants from './variants';
 
 const Interests = {
   metadata,
-  variants,
-}
+  variants
+};
 
 export default Interests;

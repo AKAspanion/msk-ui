@@ -18,9 +18,8 @@ Please follow these rules if you want your component to go LIVE.
 Happy coding
 *************************************************************************/
 
-
-import Basic from './basic/index.js'
+import Basic from './basic/index.js';
 
 export default {
-  Basic,
-}
+  Basic
+};

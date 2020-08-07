@@ -1,7 +1,7 @@
-import Basic from './basic/index.js'
-import Advanced from './advanced/index.js'
+import Basic from './basic/index.js';
+import Advanced from './advanced/index.js';
 
 export default {
   Basic,
   Advanced
-}
+};

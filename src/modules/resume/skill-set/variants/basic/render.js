@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const useStyles = (theme) => ({
   root: {
@@ -17,37 +17,32 @@ const useStyles = (theme) => ({
     fontSize: 15,
     display: 'inline-block'
   }
-})
+});
 
-const Basic = (
-  {
-    theme,
-    headlineText,
-    skills
-  }
-) => {
-  const styles = useStyles()
+const Basic = ({ theme, headlineText, skills }) => {
+  const styles = useStyles();
   return (
     <div style={styles.root}>
-      <h1 style={styles.headlineText} >{headlineText.value}</h1>
+      <h1 style={styles.headlineText}>{headlineText.value}</h1>
       <hr />
       <br />
       <div>
-        {
-          skills.value.map((skill) => {
-            return <div
+        {skills.value.map((skill) => {
+          return (
+            <div
               key={skill.value}
               style={{
                 ...styles.skill,
                 backgroundColor: theme.value.color,
                 color: theme.value.contrast
-              }} >{skill.value}
+              }}
+            >
+              {skill.value}
             </div>
-          })
-        }
+          );
+        })}
       </div>
-
-    </div >
+    </div>
   );
 };
 

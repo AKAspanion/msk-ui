@@ -30,18 +30,18 @@ const properties = {
         value: ['SKill 2', 2],
         required: true
       },
-       {
+      {
         name: 'Skill-3',
         type: propertyTypes.ARRAY,
         value: ['SKill 3', 3],
-        required :true
+        required: true
       },
-        {
+      {
         name: 'Skill-4',
         type: propertyTypes.ARRAY,
         value: ['SKill 4', 1],
-        required :true
-      },
+        required: true
+      }
     ]
   }
 };

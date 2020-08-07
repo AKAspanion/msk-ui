@@ -1,10 +1,9 @@
 import metadata from './metadata';
 import variants from './variants';
 
-
 const Education = {
   metadata,
-  variants,
-}
+  variants
+};
 
 export default Education;

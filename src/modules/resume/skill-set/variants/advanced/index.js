@@ -8,4 +8,4 @@ export default {
   properties,
   metadata,
   contributors
-}
+};

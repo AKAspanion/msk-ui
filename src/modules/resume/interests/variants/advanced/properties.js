@@ -53,11 +53,9 @@ const properties = {
         type: propertyTypes.STRING,
         value: 'Painting',
         required: true
-      },
-            
+      }
     ]
   }
-
 };
 
 export default properties;

@@ -6,9 +6,9 @@ module.exports = {
     'plugin:react/recommended',
     'prettier'
   ],
-  "env": {
-    "browser": true,
-    "commonjs": true
+  env: {
+    browser: true,
+    commonjs: true
   },
   plugins: ['jest', 'react'],
   parserOptions: {
@@ -24,5 +24,5 @@ module.exports = {
     'react/prop-types': 'off',
     'react/jsx-key': 'off',
     'no-unused-vars': 'off'
-  },
+  }
 };

@@ -1,4 +1,4 @@
 const metadata = {
-    name: 'Timeline',
-    description: 'a timeline variant to describe projects'
-}
+  name: 'Timeline',
+  description: 'a timeline variant to describe projects'
+};

@@ -24,7 +24,6 @@ const useStyles = () => ({
 });
 
 const Basic = ({ theme, headlineText, interestList }) => {
-  
   const styles = useStyles();
 
   return (

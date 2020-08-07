@@ -35,7 +35,7 @@ const properties = {
         type: propertyTypes.STRING,
         value: 'Skill 3',
         required: true
-      },
+      }
     ],
     required: true
   }

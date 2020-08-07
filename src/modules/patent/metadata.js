@@ -1,6 +1,6 @@
 const metadata = {
   id: 'patent',
-  name: "Patent",
-}
+  name: 'Patent'
+};
 
 export default metadata;

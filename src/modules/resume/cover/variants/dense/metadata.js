@@ -1,5 +1,5 @@
 const metadata = {
-  id: "resume-cover-dense",
+  id: 'resume-cover-dense',
   name: 'Dense',
   description: 'A dense style cover'
 };

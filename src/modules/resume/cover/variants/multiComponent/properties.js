@@ -1,5 +1,5 @@
-import propertyTypes from 'msk-property-types'
-import themes from 'msk-themes'
+import propertyTypes from 'msk-property-types';
+import themes from 'msk-themes';
 
 const properties = {
   theme: {
@@ -43,7 +43,7 @@ const properties = {
     type: propertyTypes.NUMBER,
     value: '9999999999',
     required: true
-  },
+  }
 };
 
 export default properties;

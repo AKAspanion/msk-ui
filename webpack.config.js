@@ -7,17 +7,16 @@ module.exports = {
     path: path.resolve(__dirname, 'docs'),
     filename: 'main.js'
   },
-  plugins: [
-  ],
+  plugins: [],
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
-        },
-      },
+          loader: 'babel-loader'
+        }
+      }
     ]
   },
   devServer: {
@@ -30,7 +29,7 @@ module.exports = {
     extensions: ['.js', '.jsx', '.json'],
     alias: {
       '@redux': path.resolve(__dirname, 'app/redux'),
-      '@common-components': path.resolve(__dirname, 'app/components'),
-    },
-  },
+      '@common-components': path.resolve(__dirname, 'app/components')
+    }
+  }
 };

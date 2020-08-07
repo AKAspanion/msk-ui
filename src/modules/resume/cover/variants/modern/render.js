@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 const useStyles = () => ({
   root: {
     display: 'flex'
@@ -17,7 +17,7 @@ const useStyles = () => ({
   },
   avatarImage: {
     width: 200,
-    borderRadius: '50%',
+    borderRadius: '50%'
   },
   name: {
     margin: 0,
@@ -33,29 +33,23 @@ const useStyles = () => ({
   contactDetails: {
     marginTop: 10
   },
-  emailId: {
-
-  },
-  phoneNo: {
-
-  },
+  emailId: {},
+  phoneNo: {},
   contactDetailsItemLabel: {
-    fontWeight: 'bold',
+    fontWeight: 'bold'
   }
-})
+});
 
-export default (
-  {
-    theme,
-    name,
-    designation,
-    company,
-    emailId,
-    phoneNo,
-    imageUrl
-  }
-) => {
-  const styles = useStyles()
+export default ({
+  theme,
+  name,
+  designation,
+  company,
+  emailId,
+  phoneNo,
+  imageUrl
+}) => {
+  const styles = useStyles();
   return (
     <div style={styles.root}>
       <div
@@ -66,33 +60,36 @@ export default (
         }}
       >
         <div style={styles.avatarWrapper}>
-          <img style={{
-            ...styles.avatarImage,
-            border: `5px solid ${theme.value.contrast}`
-          }} src={imageUrl.value} />
+          <img
+            style={{
+              ...styles.avatarImage,
+              border: `5px solid ${theme.value.contrast}`
+            }}
+            src={imageUrl.value}
+          />
         </div>
 
-
         <div style={styles.detailsWrapper}>
-          <div style={styles.name} >{name.value}</div>
+          <div style={styles.name}>{name.value}</div>
           <h3 style={styles.designation}>{designation.value}</h3>
           <h4 style={styles.company}>{company.value}</h4>
 
-          <div style={styles.contactDetails} >
-            {emailId.value && <div>
-              <span style={styles.contactDetailsItemLabel}>Email: </span><span style={styles.emailId}>{emailId.value}</span>
-            </div>}
-            {phoneNo.value && <div>
-              <span style={styles.contactDetailsItemLabel}>Ph: </span><span style={styles.phoneNo}>{phoneNo.value}</span>
-            </div>}
+          <div style={styles.contactDetails}>
+            {emailId.value && (
+              <div>
+                <span style={styles.contactDetailsItemLabel}>Email: </span>
+                <span style={styles.emailId}>{emailId.value}</span>
+              </div>
+            )}
+            {phoneNo.value && (
+              <div>
+                <span style={styles.contactDetailsItemLabel}>Ph: </span>
+                <span style={styles.phoneNo}>{phoneNo.value}</span>
+              </div>
+            )}
           </div>
-
         </div>
-
-
-
       </div>
-
-    </div >
+    </div>
   );
 };

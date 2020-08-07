@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import { Provider } from "react-redux";
-import { createStore } from "redux";
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
 
-import reducer from "./app/redux/reducer";
+import reducer from './app/redux/reducer';
 
 const store = createStore(
   reducer,
@@ -17,7 +17,7 @@ const ReduxApp = () => {
     <Provider store={store}>
       <ConnectedApp />
     </Provider>
-  )
-}
+  );
+};
 
-ReactDom.render(<ReduxApp />, document.getElementById("root"));
+ReactDom.render(<ReduxApp />, document.getElementById('root'));

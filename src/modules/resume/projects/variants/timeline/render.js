@@ -66,10 +66,7 @@ const TimeLine = ({ theme, headlineText, projects }) => {
             <Typography style={styles.timelineContentHeader} component="h1">
               {projectDetails.name.value}
             </Typography>
-            <Typography
-              style={styles.timelineContentCompany}
-              component="h4"
-            >
+            <Typography style={styles.timelineContentCompany} component="h4">
               {projectDetails.company.value} |{' '}
               {projectDetails.designation.value}
             </Typography>

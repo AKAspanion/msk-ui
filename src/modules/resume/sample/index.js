@@ -24,7 +24,7 @@ import variants from './variants';
 
 const Sample = {
   metadata,
-  variants,
-}
+  variants
+};
 
 export default Sample;

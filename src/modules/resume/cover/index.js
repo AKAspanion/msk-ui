@@ -3,7 +3,7 @@ import variants from './variants';
 
 const Cover = {
   metadata,
-  variants,
-}
+  variants
+};
 
 export default Cover;
